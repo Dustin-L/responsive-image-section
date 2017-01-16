@@ -21,34 +21,31 @@ html {
   box-sizing: inherit;
 }
 
-a {
-  background-color: #555;
-  padding: .4em .75em .3em;
-  text-align: center;
-  display: block;
-  text-decoration: none;
-  margin: .5em  1em 1em;
-}
-
-.btn {
-  color: #fff;
-  background-color: #333;
-  display: inline-block;
-}
-
-.btn:hover {
-  background-color: #000;
-}
-
-img {
-  display: inline;
-  max-width: 25em;
-}
-
-
-
-
 @media only screen and (min-width: 25em) {
+
+  a {
+    background-color: #555;
+    padding: .4em .75em .3em;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    margin: .5em  1em 1em;
+  }
+
+  .btn {
+    color: #fff;
+    background-color: #333;
+    display: inline-block;
+  }
+
+  .btn:hover {
+    background-color: #000;
+  }
+
+  img {
+    display: inline-block;
+    max-width: 25em;
+  }
 
   html {
     font-size: 100%;
