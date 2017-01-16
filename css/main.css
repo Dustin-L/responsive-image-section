@@ -13,8 +13,60 @@ html {
   line-height: 1.5;
   list-style-type: none;
   font-family: sans-serif;
-  background-color: #e2e2e2;
   text-align: left;
+}
+
+.content {
+  padding-right: .5em;
+  vertical-align: middle;
+}
+
+.img {
+  display: inline-block;
+  margin-top: 2rem;
+  vertical-align: middle;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+body {
+  background-color: #e2e2e2;
+  margin: 0;
+}
+
+section {
+  background-color: #e2e2e2;
+  padding: 1rem;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  background-color: #555;
+  border-radius: 4px;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: .5em .75em;
+  color: #fff;
+  background-color: #333;
+}
+
+.btn:hover {
+  background-color: #000;
 }
 
 *, *::before, *::after {
@@ -22,25 +74,6 @@ html {
 }
 
 @media only screen and (min-width: 25em) {
-
-  a {
-    background-color: #555;
-    padding: .4em .75em .3em;
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    margin: .5em  1em 1em;
-  }
-
-  .btn {
-    color: #fff;
-    background-color: #333;
-    display: inline-block;
-  }
-
-  .btn:hover {
-    background-color: #000;
-  }
 
   img {
     display: inline-block;
@@ -56,27 +89,52 @@ html {
 @media only screen and (min-width: 38em) {
 
   html {
-    margin: 0;
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  .content {
+    width: 48%;
+    display: inline-block;
+    margin-top: 1.2em;
+  }
+
+  .img {
+    width: 50%;
+    display: inline-block;
   }
 }
 
 @media only screen and (min-width: 60em) {
 
   html {
-    margin: 0;
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  .content {
+    width: 48%;
+    display: inline-block;
+    margin-top: 0;
+    margin-left: .5em;
+
+  }
+
+  .img {
+    width: 50%;
+    display: inline-block;
+    margin-top: 2em;
+  }
+
+  p {
+    margin-bottom: 3rem;
   }
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
-    margin: 0;
     font-size: 130%;
     line-height: 1.5;
-    position: absolute;
   }
 }
